@@ -19,9 +19,10 @@ namespace SeoToolkit.Core.Common.SiteCrawler
 
         public void Add(Uri pageToCrawl)
         {
+            if (IsUriKnown(pageToCrawl)) return;
+
             _pagesToCrawl.Enqueue(pageToCrawl);
-            if (!IsUriKnown(pageToCrawl))
-                _pagesCrawled.Add(pageToCrawl);
+            _pagesCrawled.Add(pageToCrawl);
         }
 
         public void Add(IEnumerable<Uri> pagesToCrawl)

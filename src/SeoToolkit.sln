@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoToolkit.Core", "SeoToolkit.Core\SeoToolkit.Core.csproj", "{3E5259B2-14F0-4BA3-A553-DE9FDAD597A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoToolkit.Core", "SeoToolkit.Core\SeoToolkit.Core.csproj", "{3E5259B2-14F0-4BA3-A553-DE9FDAD597A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoToolkit.Tests", "SeoToolkit.Tests\SeoToolkit.Tests.csproj", "{AC05215B-0592-4758-A56B-403E2FB99E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3E5259B2-14F0-4BA3-A553-DE9FDAD597A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E5259B2-14F0-4BA3-A553-DE9FDAD597A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E5259B2-14F0-4BA3-A553-DE9FDAD597A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC05215B-0592-4758-A56B-403E2FB99E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC05215B-0592-4758-A56B-403E2FB99E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC05215B-0592-4758-A56B-403E2FB99E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC05215B-0592-4758-A56B-403E2FB99E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
