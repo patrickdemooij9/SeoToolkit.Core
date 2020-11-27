@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<RootNamespace>SeoToolkit.Core</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="HtmlAgilityPack" Version="1.11.28" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="System.Net" />
+	  <Reference Include="System.Net.Http" />
+	</ItemGroup>
+
+</Project>
